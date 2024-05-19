@@ -55,6 +55,7 @@ export default function Login() {
           <ContainerContentLoginLogoLabel>
             <ContainerLogo
               src={ImgLogo}
+              alt='Federação Paulista de Futebol - Esse é o meu jogo'
               sizes={{
                 xs: { width: 80, height: 80 },
                 sm: { width: 80, height: 80 },

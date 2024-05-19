@@ -86,7 +86,7 @@ export const ContainerLogo = styled.img`
 `
 
 export const TitleContentBodyFields = styled.h3`
-  color: #000;
+  color: #000000;
   font-family: Open Sans, sans-serif;
   font-weight: 600;
   font-size: 18px;

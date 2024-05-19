@@ -19,11 +19,12 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: auto;
+  background-color: #F0F0F0;
 `
 
 export const ContainerBody = styled.div`
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: baseline;
 
@@ -37,12 +38,3 @@ export const ContainerBody = styled.div`
     )
   }}
 `
-
-// export const ContainerContentBodyOpacity = styled.div`
-//   width: 100%;
-//   height: 80%;
-//   background-color: rgba(34, 35, 36, 0.4);
-//   margin-top: 10vh;
-//   display: flex;
-//   flex-direction: column;
-// `
