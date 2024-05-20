@@ -5,7 +5,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 
 export default function ButtonComponent({
-    width, height, fontSize, variant, title, disabled = false, color, size, startIcon, endIcon, fullWidth, onClick,
+    width, height, fontSize, variant, title, disabled = false, color, size, startIcon, endIcon, fullWidth, onClick, backgroundColor
 }) {
 
 
@@ -23,6 +23,7 @@ export default function ButtonComponent({
                 width,
                 fontSize,
                 height,
+                backgroundColor,
             }}
         >
             {title}

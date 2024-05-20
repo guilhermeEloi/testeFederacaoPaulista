@@ -97,6 +97,7 @@ export default function Login() {
               variant={'contained'}
               onClick={handleLogin}
               size={'large'}
+              backgroundColor={'#1c3286'}
             />
           </ContainerContentLoginButtonAction>
         </ContainerContentLogin>

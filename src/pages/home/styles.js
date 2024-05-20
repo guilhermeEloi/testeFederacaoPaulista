@@ -19,22 +19,55 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: auto;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 `
 
 export const ContainerBody = styled.div`
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
 
   ${({ container }) => {
     return responsiveProp(
       container,
       (breakpoint) => css`
-        flex-direction: column;
         height: ${container[breakpoint.name]};
       `
     )
   }}
+`
+
+export const HeaderContainer = styled.div`
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+`
+
+export const TitlePage = styled.h2`
+  color: #000000;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+`
+
+export const CardsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  background-color: #c0c0c0;
+  overflow-y: auto;
+`
+export const ContainerFooter = styled.div`
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  background-color: #1c3286;
 `

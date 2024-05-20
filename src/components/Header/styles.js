@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 import { breakpoints } from '../../styles/responsive'
+import { ListItem, ListItemText } from '@mui/material'
 
 function responsiveProp(prop, callback) {
   if (prop) {
@@ -130,4 +131,28 @@ export const ContainerMenuList = styled.div`
       `
     )
   }}
+`
+
+export const MenuItemStyled = styled(ListItem)`
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  ${({ active }) =>
+    active &&
+    css`
+      background-color: rgba(0, 0, 0, 0.1);
+    `}
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+`
+
+export const MenuItemIcon = styled.div`
+  margin-right: 16px;
+`
+
+export const MenuItemText = styled(ListItemText)`
+  flex-grow: 1;
 `
