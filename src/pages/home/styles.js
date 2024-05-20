@@ -71,3 +71,10 @@ export const ContainerFooter = styled.div`
   display: flex;
   background-color: #1c3286;
 `
+export const ContainerInputs = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  overflow-y: auto;
+`
