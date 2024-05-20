@@ -27,12 +27,12 @@ ou
 #
 Feito isso basta rodar o comando de execução de acordo com seu gerenciador de pacotes
 
-### `yarn start`
+### `yarn dev`
 
 #
 ou
 
-### `npm start`
+### `npm run dev`
 
 #
 Após isso o projeto estará rodando em modo de desenvolvimento.
@@ -49,4 +49,4 @@ Para buildar o projeto rodar um dos seguintes comandos:
 #
 ou
 
-### `npm build`
+### `npm run build`
