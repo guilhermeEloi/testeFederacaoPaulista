@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Ficha de Pessoas
+Siga as instruções abaixo para conhecimento da aplicação e suas ferramentas utilizadas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###
 
-Currently, two official plugins are available:
+#
+# Instruções
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. Versão Node
+Para que todas as dependencias funcionem corretamente, deve ser utilizada a versão <font color='green'>[*LTS 16.13.0*](https://nodejs.org/en/download/)</font>
 
-## Expanding the ESLint configuration
+<font color='orange'>*Caso você não consiga atualizar desta forma, faça o download e instale a versão via executável*</font>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* [Clique aqui para download direto](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi)
 
-- Configure the top-level `parserOptions` property like this:
+#
+## 2. Instalação do projeto e execução do projeto
+Feito a verificação da versão Node, para instalar o projeto basta executar o comando de instalação de acordo com seu gerenciador de pacotes 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### `yarn`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#
+ou
+
+### `npm install`
+
+#
+Feito isso basta rodar o comando de execução de acordo com seu gerenciador de pacotes
+
+### `yarn start`
+
+#
+ou
+
+### `npm start`
+
+#
+Após isso o projeto estará rodando em modo de desenvolvimento.
+Abra [http://localhost:5173](http://localhost:5173) para visualizar o projeto em seu navegador.
+
+#
+Para acessar o sistema basta usar o login e senha: admin
+#
+
+#
+Para buildar o projeto rodar um dos seguintes comandos:
+### `yarn build`
+
+#
+ou
+
+### `npm build`
